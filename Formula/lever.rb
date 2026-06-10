@@ -8,28 +8,28 @@
 class Lever < Formula
   desc "Publish from files, not platforms — the lever.press CLI"
   homepage "https://lever.press"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/leverpress/lever-cli/releases/download/v#{version}/lever-aarch64-apple-darwin.tar.gz"
-      sha256 "97a39cc0e4c0b9a499c636a3639e3cb181b62f8711c5600197059b7265a8faeb"
+      sha256 "003ca3c7f4ed25e42fd1570fcc585b2766157c52ce066749e97db28723b85324"
     end
     on_intel do
       url "https://github.com/leverpress/lever-cli/releases/download/v#{version}/lever-x86_64-apple-darwin.tar.gz"
-      sha256 "924a911a9cf3aaec1609510bcfce236a8918da99db1f0f2aa9adceb44e2b842c"
+      sha256 "f3c5c4a1246ec76f7a9e953c3d241fa7baccf8b63a0be9e9fd4b260d815540f3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/leverpress/lever-cli/releases/download/v#{version}/lever-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8e59bb01376b61bb1fce76a78b75fc144e652bd138922897e0a4732fb64d9de5"
+      sha256 "6a85e43c3ec08c06d1df2e7b368ffe9f3e6db90144b8ce0aeb549a2b73fc6e6b"
     end
     on_intel do
       url "https://github.com/leverpress/lever-cli/releases/download/v#{version}/lever-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "107ffcf4a932842f3b98d8b22dd53c0dede2bdba2412ad166751c97cf9555f18"
+      sha256 "86d1d338c3d099d35e54df5db556e2592a2f23c247742833600d43da09c0e4cf"
     end
   end
 
